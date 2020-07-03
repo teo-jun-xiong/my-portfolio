@@ -1,5 +1,5 @@
 # My Portfolio Site
-A personal portfolio page developed as a means of an online portfolio page, as well as to pick up web development.
+A personal portfolio page developed as a means of having an online portfolio page, as well as to pick up web development. Built using JavsScript, HTML, CSS, and React.
 
 ## Credits
 <div>Icons made by <a href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
