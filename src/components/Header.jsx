@@ -2,6 +2,7 @@ import React from 'react';
 
 function Header() {
     return <div className="div-header">
+        <br/><br/>
         <nav className="navbar navbar-expand-lg my-navbar navbar-dark">
             <a className="navbar-brand" href="#div-header">
                 <img src="images/programmer.png" width="50px"/>
