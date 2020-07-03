@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.js": "/portfolio-v2/static/js/main.3840497f.chunk.js",
-    "main.js.map": "/portfolio-v2/static/js/main.3840497f.chunk.js.map",
+    "main.css": "/portfolio-v2/static/css/main.e464849f.chunk.css",
+    "main.js": "/portfolio-v2/static/js/main.147a7896.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.147a7896.chunk.js.map",
     "runtime-main.js": "/portfolio-v2/static/js/runtime-main.a8d6ddc0.js",
     "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.a8d6ddc0.js.map",
-    "static/js/2.75fba282.chunk.js": "/portfolio-v2/static/js/2.75fba282.chunk.js",
-    "static/js/2.75fba282.chunk.js.map": "/portfolio-v2/static/js/2.75fba282.chunk.js.map",
+    "static/js/2.68dc8b56.chunk.js": "/portfolio-v2/static/js/2.68dc8b56.chunk.js",
+    "static/js/2.68dc8b56.chunk.js.map": "/portfolio-v2/static/js/2.68dc8b56.chunk.js.map",
     "index.html": "/portfolio-v2/index.html",
-    "precache-manifest.d931816d852906123cbb579cc760e1a0.js": "/portfolio-v2/precache-manifest.d931816d852906123cbb579cc760e1a0.js",
+    "precache-manifest.27000c0fa3cfa2a8a628bd6bf7935059.js": "/portfolio-v2/precache-manifest.27000c0fa3cfa2a8a628bd6bf7935059.js",
     "service-worker.js": "/portfolio-v2/service-worker.js",
-    "static/js/2.75fba282.chunk.js.LICENSE.txt": "/portfolio-v2/static/js/2.75fba282.chunk.js.LICENSE.txt"
+    "static/css/main.e464849f.chunk.css.map": "/portfolio-v2/static/css/main.e464849f.chunk.css.map",
+    "static/js/2.68dc8b56.chunk.js.LICENSE.txt": "/portfolio-v2/static/js/2.68dc8b56.chunk.js.LICENSE.txt",
+    "static/media/education.png": "/portfolio-v2/static/media/education.09fa537f.png",
+    "static/media/help.png": "/portfolio-v2/static/media/help.56163366.png",
+    "static/media/mountain.png": "/portfolio-v2/static/media/mountain.16e88232.png",
+    "static/media/ping-pong.png": "/portfolio-v2/static/media/ping-pong.e8ce8699.png",
+    "static/media/programmer.png": "/portfolio-v2/static/media/programmer.ac18bd35.png",
+    "static/media/sound.png": "/portfolio-v2/static/media/sound.844c32c7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a8d6ddc0.js",
-    "static/js/2.75fba282.chunk.js",
-    "static/js/main.3840497f.chunk.js"
+    "static/js/2.68dc8b56.chunk.js",
+    "static/css/main.e464849f.chunk.css",
+    "static/js/main.147a7896.chunk.js"
   ]
 }
