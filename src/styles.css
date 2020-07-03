@@ -19,8 +19,13 @@ h2 {
     color: #66fcf1;
 }
 
-h3 {
+h3,
+h5 {
     color: #47c6d1;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 p,
@@ -312,6 +317,42 @@ hr {
     display: table;
 }
 
+.project-carousel {
+    width: 65%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.carousel-img {
+    display: block;
+    object-fit: contain;
+    width: auto;
+    height: 700px;
+    padding: 20px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231f2833' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231f2833' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-indicators li {
+    background-color: #84a9ac;
+}
+
+.carousel-indicators .active {
+    background-color: #1f2833;
+}
+
 
 /* || Job experience */
 
@@ -449,6 +490,9 @@ hr {
         height: 100px;
         object-fit: contain;
         padding: 5px;
+    }
+    .project-carousel {
+        width: 90%;
     }
 }
 
