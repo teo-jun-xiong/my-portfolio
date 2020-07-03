@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: #f2f2f2;
-    margin: auto;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
     text-align: center;
     font-family: 'Merriweather', serif;
 }
@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-    color: #84a9ac;
+    color: #47c6d1;
 }
 
 p,
@@ -66,22 +66,20 @@ hr {
 }
 
 .name-header {
-    position: relative;
-    padding-top: 250px;
     margin: 0;
 }
 
 .text-header {
-    margin-bottom: 0;
     font-size: 1em;
     color: #84a9ac;
 }
 
-.top-cloud {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 230px;
-    display: inline-block;
+.header {
+    margin-top: 15%;
+}
+
+.header-img {
+    width: 150px;
 }
 
 .bottom-cloud {
@@ -106,6 +104,11 @@ hr {
 
 .about p {
     text-align: left;
+}
+
+.coursework {
+    width: 60%;
+    margin: auto;
 }
 
 
@@ -278,6 +281,7 @@ hr {
 .left-project-container img {
     float: left;
     margin-right: 5%;
+    width: 150px;
 }
 
 .right-project-container {
@@ -290,6 +294,7 @@ hr {
 .right-project-container img {
     float: right;
     margin-left: 5%;
+    width: 150px;
 }
 
 .left-project-container p,
@@ -332,9 +337,14 @@ hr {
 }
 
 .scene {
-    width: 570px;
+    position: relative;
     display: -webkit-box;
-    margin: auto;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .scene .card {
@@ -366,6 +376,9 @@ hr {
     backface-visibility: hidden;
     -webkit-transition: 1s ease-in-out;
     transition: 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .scene .card .card__face img {
@@ -402,12 +415,49 @@ hr {
     color: white;
 }
 
+@media (max-width:768px) {
+    .left-project-container,
+    .right-project-container,
+    .about {
+        width: 80%;
+    }
+    .left-project-container img,
+    .right-project-container img {
+        float: none;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+        width: 35%;
+    }
+    .header-img,
+    .link-image {
+        width: 35%;
+    }
+    .scene {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .scene .card {
+        width: 110px;
+        height: 110px;
+    }
+    .card__face--back p {
+        font-size: 0.5em;
+    }
+    .scene .card .card__face img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        padding: 5px;
+    }
+}
+
 
 /* || Links */
 
 .link-image {
     margin: 15px;
-    width: 3%;
+    width: 50px;
 }
 
 .clear-image {

@@ -20,7 +20,7 @@ const ScrollTopArrow = () =>{
   window.addEventListener('scroll', checkScrollTop)
 
   return (
-        <img src={arrow} className="scrollTop" onClick={scrollTop} style={{display: showScroll ? 'flex' : 'none'}}/>
+        <img src={arrow} className="scrollTop" onClick={scrollTop} style={{display: showScroll ? 'flex' : 'none'}} alt="placeholder"/>
   );
 }
 

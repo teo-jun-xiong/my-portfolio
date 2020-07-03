@@ -5,7 +5,7 @@ import projectsData from '../ProjectsData';
 
 function Project() {
     return <div id="projects">
-        <img src={project} width="6%"/>
+        <img src={project} className="header-img"/>
         
         {projectsData.map((proj, index) => (
             <ProjectSection

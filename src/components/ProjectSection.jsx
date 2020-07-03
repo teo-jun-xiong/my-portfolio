@@ -10,12 +10,12 @@ function ProjectSection(props) {
 
     return <div className="clearfix">
         <div className={projectContainer}>
-            <img src={props.image} width="150px"/>
+            <img src={props.image} alt="placeholder"/>
             <h3 className="project-header">{props.title}</h3>
             <p>{props.desc}
                 <br/>
                 <br/>
-                <em>{props.dev}</em><br/><a href="https://github.com/teo-jun-xiong/{item.github}">GitHub repo here!</a> </p>
+                <em>{props.dev}</em><br/><a href={props.github}>GitHub repo here!</a> </p>
                 
         </div>
     </div>
