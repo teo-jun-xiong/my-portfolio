@@ -1,0 +1,415 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    margin: auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4em;
+    color: #66fcf1;
+}
+
+h2 {
+    color: #66fcf1;
+}
+
+h3 {
+    color: #84a9ac;
+}
+
+p,
+li {
+    color: #1f2833;
+}
+
+li {
+    width: fit-content;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div ul {
+    text-align: center;
+    list-style-position: inside;
+    display: inline-block;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: gray;
+    border-width: 15px;
+    width: 4%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.my-navbar {
+    background-color: #1f2833;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.div-header {
+    height: 100vh;
+    background-color: #1f2833;
+}
+
+.name-header {
+    position: relative;
+    padding-top: 250px;
+    margin: 0;
+}
+
+.text-header {
+    margin-bottom: 0;
+    font-size: 1em;
+    color: #84a9ac;
+}
+
+.top-cloud {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 230px;
+    display: inline-block;
+}
+
+.bottom-cloud {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -340px;
+    display: inline-block;
+}
+
+.background-header {
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* || Scroll to the top button */
+
+.scroll-top-button {
+    display: inline-block;
+    background-color: #1f2833;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.scroll-top-button::after {
+    content: "^";
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 50px;
+    color: #fff;
+}
+
+.scroll-top-button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+.scroll-top-button:active {
+    background-color: #555;
+}
+
+.scroll-top-button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* || Education timeline */
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #3a4c61;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    margin-bottom: 60px;
+}
+
+.timeline-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    border-color: #3a4c61;
+    width: 30%;
+}
+
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: #3a4c61;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-left {
+    left: 20%;
+}
+
+.timeline-right {
+    left: 50%;
+}
+
+.timeline-left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid #3a4c61;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #3a4c61;
+}
+
+.timeline-right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #3a4c61;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #3a4c61 transparent transparent;
+}
+
+.timeline-right::after {
+    left: -12px;
+}
+
+.timeline-content {
+    border: 2px solid #3a4c61;
+    position: relative;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+    /* Full-width containers */
+    .timeline-container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline-container::before {
+        left: 60px;
+        border: medium solid #3a4c61;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #3a4c61 transparent transparent;
+    }
+    /* Make sure all circles are at the same spot */
+    .timeline-left::after,
+    .timeline-right::after {
+        left: 13px;
+    }
+    /* Make all right containers behave like the left ones */
+    .timeline-right {
+        left: 0%;
+    }
+}
+
+.cca {
+    margin-top: 25px;
+}
+
+
+/* || Projects */
+
+.project-header {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 1.7em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-project-container {
+    text-align: left;
+    line-height: 2;
+    width: 55%;
+    margin: 50px auto 50px auto;
+}
+
+.left-project-container img {
+    float: left;
+    margin-right: 5%;
+}
+
+.right-project-container {
+    text-align: left;
+    line-height: 2;
+    width: 55%;
+    margin: 50px auto 50px auto;
+}
+
+.right-project-container img {
+    float: right;
+    margin-left: 5%;
+}
+
+.left-project-container p,
+.right-project-container p {
+    overflow: hidden;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* || Job experience */
+
+.job-container {
+    width: 70%;
+    margin: auto;
+}
+
+.job-text {
+    line-height: 2;
+}
+
+
+/* || Skills */
+
+.skills-container {
+    display: -webkit-box;
+    display: block;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.scene {
+    width: 630px;
+    display: -webkit-box;
+    margin: auto;
+}
+
+.scene .card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #e4f1f2;
+    cursor: pointer;
+    margin: 5px;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.scene .card:hover {
+    -webkit-transform: rotateY(0.5turn);
+    transform: rotateY(0.5turn);
+    margin: 5px;
+}
+
+.scene .card .card__face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+.scene .card .card__face img {
+    width: 200px;
+    height: 200px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.scene .card .card__face--back {
+    -webkit-transform: rotateY(0.5turn);
+    transform: rotateY(0.5turn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a4c61;
+}
+
+.card__face--back span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    color: #e4f1f2;
+}
+
+.card__face p {
+    padding: 5px;
+    color: white;
+}
+
+
+/* || Links */
+
+.link-image {
+    margin: 15px;
+    width: 3%;
+}
+
+.clear-image {
+    clear: both;
+}
