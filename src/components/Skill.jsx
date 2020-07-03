@@ -5,7 +5,9 @@ import SkillSection from './SkillSection';
 
 function Skill() {
     return <div id="skills" className="skills-container">
-        <img src={skills} className="header-img clear-image" alt="placeholder"/> <br/><br/>
+        <img src={skills} className="header-img clear-image" alt="placeholder"/> <br/>
+        <h3 className="project-header header-shadow">Skills</h3><br/><br/>
+
  
         <div className="scene">
             <br/>

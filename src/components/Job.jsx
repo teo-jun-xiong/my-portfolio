@@ -3,7 +3,8 @@ import job from '../images/job.png'
 
 function Job() {
     return <div id="jobs" className="job-container">
-        <img src={job} className="header-img" alt="placeholder"/><br/><br/>
+        <img src={job} className="header-img" alt="placeholder"/><br/>
+        <h3 className="project-header header-shadow">Job Experience</h3><br/><br/>
         <h3 className="project-header">Teaching Assistant for Programming Methodology II</h3><br/>
         <p className="job-text"><em>From Jan - May 2020.<br/></em>Responsibilities include preparing lesson plans, reviewing students' code, and providing guidance for labs and assignments.</p>
         <br/>

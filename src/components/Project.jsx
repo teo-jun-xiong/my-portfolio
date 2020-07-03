@@ -15,7 +15,8 @@ import carousel_wing_it_2 from '../images/project-carousel-wing-it-2.png';
 function Project() {
     return <div id="projects">
         <img src={project} className="header-img" alt="placeholder"/>
-        
+        <h3 className="project-header header-shadow">Projects</h3><br/><br/>
+
         {projectsData.map((proj, index) => (
             <ProjectSection
                 key={index}
@@ -28,7 +29,7 @@ function Project() {
             />
         ))}
 
-        <h3 className="project-header">Projects Showcase</h3>
+        <h3 className="project-header header-shadow">Projects Showcase</h3>
 
         <div id="carousel-project" className="carousel slide project-carousel" data-ride="carousel" data-interval="false">
             <ol className="carousel-indicators">

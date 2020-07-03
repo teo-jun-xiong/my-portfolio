@@ -8,12 +8,12 @@ function Education() {
     return <div id="education">
         <img src={education} alt="education" className="header-img"/> <br/><br/>
     
-        <h3 className="project-header">Relevant Coursework</h3><br/>
+        <h3 className="project-header header-shadow">University Coursework</h3><br/>
         <p className="coursework">Data Structures and Algorithms • Database Systems • Software Engineering • Object-oriented Programming • Computer Networks</p><br/><br/>
         
         
         <div>
-            <h3 className="project-header">Co-curricular Activities</h3>
+            <h3 className="project-header header-shadow">Co-curricular Activities</h3>
 
             <div className="clearfix">
                 <div className="left-project-container">
