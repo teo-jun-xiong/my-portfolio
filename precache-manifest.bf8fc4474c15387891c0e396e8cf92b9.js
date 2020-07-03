@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de167c12012c93f5b9d64cedac3de227",
+    "revision": "df393c49a6397e5640ff00d57ec14b04",
     "url": "/portfolio-v2/index.html"
   },
   {
-    "revision": "99139f9bd327d2ab2462",
-    "url": "/portfolio-v2/static/css/main.06e8ec0c.chunk.css"
+    "revision": "2e0da5afadf4dbc27deb",
+    "url": "/portfolio-v2/static/css/main.0eb78e21.chunk.css"
   },
   {
-    "revision": "8e757f298911a7457022",
-    "url": "/portfolio-v2/static/js/2.a0589bde.chunk.js"
+    "revision": "365c7ea0fd38bceb4760",
+    "url": "/portfolio-v2/static/js/2.c2ef77b2.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio-v2/static/js/2.a0589bde.chunk.js.LICENSE.txt"
+    "url": "/portfolio-v2/static/js/2.c2ef77b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99139f9bd327d2ab2462",
-    "url": "/portfolio-v2/static/js/main.404a3482.chunk.js"
+    "revision": "2e0da5afadf4dbc27deb",
+    "url": "/portfolio-v2/static/js/main.9ffd3e11.chunk.js"
   },
   {
     "revision": "58daaf2044f28a9eccfa",
@@ -82,6 +82,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ac18bd356a735086b95e7e8a017e1383",
     "url": "/portfolio-v2/static/media/programmer.ac18bd35.png"
+  },
+  {
+    "revision": "475ff612212f7276d5f36606e41471e3",
+    "url": "/portfolio-v2/static/media/project-carousel-cooking-papa-1.475ff612.png"
+  },
+  {
+    "revision": "778f04d5c8fc4fde1349ed67cf1a8e2f",
+    "url": "/portfolio-v2/static/media/project-carousel-eldereach-1.778f04d5.png"
+  },
+  {
+    "revision": "560cc40ac49e7bab0e2c8b41a2c1f160",
+    "url": "/portfolio-v2/static/media/project-carousel-eldereach-2.560cc40a.png"
+  },
+  {
+    "revision": "443fd464a35baf7a46c317f44fc81906",
+    "url": "/portfolio-v2/static/media/project-carousel-eldereach-3.443fd464.png"
+  },
+  {
+    "revision": "e5d0250175f3f265a9ca2c15d96802a1",
+    "url": "/portfolio-v2/static/media/project-carousel-spreent-1.e5d02501.jpg"
+  },
+  {
+    "revision": "4c57ca156109c24347718e34431c0b4f",
+    "url": "/portfolio-v2/static/media/project-carousel-spreent-2.4c57ca15.jpg"
+  },
+  {
+    "revision": "3ee1b9dac5d91f92315f9ce0b56fedf1",
+    "url": "/portfolio-v2/static/media/project-carousel-wing-it-1.3ee1b9da.png"
+  },
+  {
+    "revision": "7e78dd538f8cba5d9aa405ac735cbda3",
+    "url": "/portfolio-v2/static/media/project-carousel-wing-it-2.7e78dd53.png"
   },
   {
     "revision": "66d7fb3367cab4e9d607048c5582df52",
