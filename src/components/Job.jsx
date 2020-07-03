@@ -1,8 +1,9 @@
 import React from 'react';
+import job from '../images/job.png'
 
 function Job() {
-    return <div className="job-container">
-        <img src="images/job.png" width="6%"/><br/><br/>
+    return <div id="jobs" className="job-container">
+        <img src={job} width="6%"/><br/><br/>
         <h3 className="project-header">Teaching Assistant for Programming Methodology II</h3>
         <p className="job-text"><em>From Jan - May 2020.<br/></em>Responsibilities include preparing lesson plans, reviewing students' code, and providing guidance for labs and assignments.</p>
         <br/>

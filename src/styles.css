@@ -95,49 +95,46 @@ hr {
     display: block;
     position: absolute;
     bottom: 0;
+    z-index: 1;
+}
+
+.about {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.about p {
+    text-align: left;
 }
 
 
 /* || Scroll to the top button */
 
-.scroll-top-button {
-    display: inline-block;
-    background-color: #1f2833;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 4px;
+.scrollTop {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: background-color .3s, opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
+    right: 20px;
+    bottom: 20px;
+    align-items: center;
+    height: 7%;
     z-index: 1000;
-}
-
-.scroll-top-button::after {
-    content: "^";
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 3em;
-    line-height: 50px;
-    color: #fff;
-}
-
-.scroll-top-button:hover {
     cursor: pointer;
-    background-color: #333;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.8;
 }
 
-.scroll-top-button:active {
-    background-color: #555;
+.scrollTop:hover {
+    opacity: 0.8;
 }
 
-.scroll-top-button.show {
-    opacity: 1;
-    visibility: visible;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8;
+    }
 }
 
 
@@ -147,7 +144,6 @@ hr {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: px;
 }
 
 .timeline::after {
@@ -336,15 +332,15 @@ hr {
 }
 
 .scene {
-    width: 630px;
+    width: 570px;
     display: -webkit-box;
     margin: auto;
 }
 
 .scene .card {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background-color: #e4f1f2;
     cursor: pointer;
     margin: 5px;
@@ -373,8 +369,8 @@ hr {
 }
 
 .scene .card .card__face img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     -o-object-fit: cover;
     object-fit: cover;
     padding: 25px;
@@ -395,6 +391,10 @@ hr {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
     color: #e4f1f2;
+}
+
+.card__face--back p {
+    font-size: 0.8em;
 }
 
 .card__face p {

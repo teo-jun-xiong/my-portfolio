@@ -1,8 +1,12 @@
 import React from 'react';
+import education from "../images/education.png";
+import sound from "../images/sound.png";
+import pingpong from "../images/ping-pong.png";
+import help from "../images/help.png";
 
 function Education() {
-    return <div>
-        <img src="images/education.png" alt="education" width="6%"/> <br/><br/>
+    return <div id="education">
+        <img src={education} alt="education" width="6%"/> <br/><br/>
     
         <h3 className="project-header">Relevant Coursework</h3><br/>
         <p>Data Structures and Algorithms • Database Systems • Software Engineering </p>
@@ -42,7 +46,7 @@ function Education() {
 
             <div className="clearfix">
                 <div className="left-project-container">
-                    <img src="images/sound.png" width="150px"/>
+                    <img src={sound} width="150px"/>
                     <h3 className="project-header">Sound Executive Member in Audio Visual Club</h3>
                     <p>Executive member of the sound department from 2012 to 2013, providing leadership and guidance to the department. <br/><br/>Collaborated with other
                         executive members to plan trainings as well as coordinate with one another during actual school events. Some large-scale school events handled by the Audio Visual Club include the annual Speech Days, Temasek Acapella Group's concerts,
@@ -52,7 +56,7 @@ function Education() {
 
             <div className="clearfix">
                 <div className="right-project-container">
-                    <img src="images/ping-pong.png" width="150px"/>
+                    <img src={pingpong} width="150px"/>
                     <h3 className="project-header">Table Tennis Club Member</h3>
                     <p>Member of Meridian Junior College's Table Tennis Club from 2014 to 2015.</p>
                 </div>
@@ -60,7 +64,7 @@ function Education() {
 
             <div className="clearfix">
                 <div className="left-project-container">
-                    <img src="images/help.png" width="150px"/>
+                    <img src={help} width="150px"/>
                     <h3 className="project-header">Cultural Immersion Trip to Hanoi, Vietnam</h3>
                     <p>Participated in a cultural immersion trip to Hanoi, Vietnam in 2014. Took part in teaching basic English to children with disabilities at a local school.</p>
                 </div>
