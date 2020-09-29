@@ -2,7 +2,7 @@
     "name": "portfolio-v2",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://teo-jun-xiong.github.io/portfolio-v2",
+    "homepage": "https://teo-jun-xiong.github.io/my-portfolio/",
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.5.0",
