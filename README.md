@@ -1,4 +1,7 @@
 # My Portfolio Site
+
+[![Teo Jun Xiong's GitHub stats](https://github-readme-stats.vercel.app/api?username=teo-jun-xiong&count_private=true&show_icons=true&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
+
 A personal portfolio page developed as a means of having an online portfolio page, as well as to pick up web development. Built using JavsScript, HTML, CSS, and React.
 
 ## Credits
